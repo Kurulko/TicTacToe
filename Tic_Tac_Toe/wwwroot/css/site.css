@@ -1,0 +1,58 @@
+﻿.place {
+    width: 50px;
+    height: 50px;
+    border-color: white;
+}
+
+#left,#center,#right{
+    position:absolute;
+}
+#left, #right {
+    height: 100%;
+    width: 25%;
+    border: solid black;
+    min-width: 188px;
+}
+#right {
+    right: 0px;
+}
+#center {
+    left: 25%;
+    width: 50%;
+    min-width: 375px;
+}
+
+.form {
+    margin-top: 10%;
+}
+
+#tic_tac_toe {
+    margin-top: 50px;
+
+}
+
+a {
+    color: #0366d6;
+}
+
+header {
+    background-color:black;
+    color:white;
+}
+
+* {
+    font-style: oblique;
+}
+
+th, tr {
+    padding: 0px;
+}
+
+table {
+    text-align: center;
+}
+
+button{
+    border-radius:30px;
+}
+

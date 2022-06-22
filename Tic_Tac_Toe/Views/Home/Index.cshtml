@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Tic Tac Toe";
+}
+<div id="left">
+    <center>
+        <form name="left" class="form">
+            <p>Имя первого игрока</p>
+            <input type="text" name="user1" />
+            <input type="color" name="color1" value="#FF0000" />
+            <br /><br />
+            <p>Имя второго игрока</p>
+            <input type="text" name="user2" />
+            <input type="color" name="color2" value="#0000FF" />
+        </form>
+    </center>
+</div>
+<div id="center">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th id="user1"></th>
+                <th id="user2"></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="resultsOfUser1"></td>
+                <td id="resultsOfUser2"></td>
+                <td>
+                    <button id="restart" class="btn btn-outline-danger">
+                        Очистить
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <p id="whoMove" style="margin-left:5%;"></p>
+    <center>
+        <tic-tactoe size=3 id="tic_tac_toe"></tic-tactoe>
+        <br /><br />
+        <button id="reload" class="btn btn-outline-primary">
+            Заново
+        </button>
+    </center>
+</div>
+<div id="right">
+    <center>
+        <form name="right" class="form">
+            <p>Размер таблицы</p>
+            <select name="sizes" style="width:150px;">
+                <option value="3">3x3</option>
+                <option value="4">4x4</option>
+                <option value="5">5x5</option>
+                <option value="6">6x6</option>
+            </select>
+        </form>
+    </center>
+</div>
+
