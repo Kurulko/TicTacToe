@@ -1,0 +1,2 @@
+# An online "tic-tac-toe" game
+An online tic-tac-toe game without registration, in which two players take turns placing 3x3, 4x4, 5x5 or 6x6 fields on free cells, cross (first player) or zero (second player), the first one to line up a row (vertically, horizontally or diagonally) out of z of his pieces in the zxz mode, he won, and the result of victories between the players is displayed on the plate above. Also, during the game, you can dynamically change the color of your pieces and the name
